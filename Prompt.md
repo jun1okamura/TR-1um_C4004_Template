@@ -8,7 +8,13 @@
 
 ```markdown
 # 目的
-OpenSUSI TR-1um PDK（1 µm CMOS、2層配線 M1/M2、電源電圧 5.0 V）を用い、`2500.0 µm × 2500.0 µm` の 16ピン標準フレーム（`OSS_FRAME`）内に収まる **Intel 4004 完全互換 4-bit CPU (`C4004`)** をフルスクラッチで設計・実装・検証してください。
+OpenSUSI TR-1um PDK（1 µm CMOS、2層配線 M1/M2、電源電圧 5.0 V）を用い、`2500.0 µm × 2500.0 µm` の 16ピン標準フレーム（`OSS_FRAME_GIO`）内に収まる **Intel 4004 完全互換 4-bit CPU (`C4004`)** をフルスクラッチで設計・実装・検証してください。
+
+## 1. 設計の進めかた
+GitHub の template https://github.com/jun1okamura/TR-1um_C4004_Template を local PC に試行順の数字を末尾に追記した名前(TR-1um_C4004_NN)に変更して clone して作業を進めます。作業中の知見は、`reference/09_work_memo.md` に記載します。設計が終了したら、設計したチップの諸表もまとめて`reference/09_work_memo.md` に記載ください。
+
+## 2. 繰り返し設計
+優れた性能を目指して（１）を繰り返します。新しい clone を試行順の数字を更新しく作成して、以前のチップの諸表を`reference/09_work_memo.md` に記載してから、再設計を進めてください。
 
 ---
 
